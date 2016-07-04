@@ -1,8 +1,8 @@
 package com.example.mark.maptest;
 
 import android.net.Uri;
-import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.os.Bundle;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
@@ -24,30 +24,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      */
     private GoogleApiClient client;
 
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        //Making Google Play Services available
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
-        /*
-        Invoke LoaderCallbacks to retrieve and draw already saved locations in map
-        getSupportLoaderManager().initLoader(0, null, this);
-        ATTENTION: This was auto-generated to implement the App Indexing API.
-        See https://g.co/AppIndexing/AndroidStudio for more information.
-        ATTENTION: This was auto-generated to implement the App Indexing API.
-        See https://g.co/AppIndexing/AndroidStudio for more information.
-        */
-
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
