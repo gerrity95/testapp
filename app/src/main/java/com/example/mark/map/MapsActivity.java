@@ -1,4 +1,4 @@
-package com.example.mark.maptest;
+package com.example.mark.map;
 
 import android.net.Uri;
 import android.support.v4.app.FragmentActivity;

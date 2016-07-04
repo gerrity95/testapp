@@ -1,4 +1,4 @@
-package com.example.mark.maptest;
+package com.example.mark.map;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

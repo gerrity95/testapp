@@ -1,4 +1,4 @@
-package com.example.mark.maptest;
+package com.example.mark.map;
 
 import org.junit.Test;
 
